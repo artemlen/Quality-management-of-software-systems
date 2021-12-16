@@ -10,7 +10,7 @@ def ls_fixture():
     fm.ls()
     return True
 def test_ls(ls_fixture):
-    assert ls_fixture == True, "ls Error"
+    assert ls_fixture == True
 
 
 
