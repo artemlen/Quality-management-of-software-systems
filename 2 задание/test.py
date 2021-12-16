@@ -4,7 +4,7 @@ import os
 import sys
 import file_manager2 as fm
 
-#Тест функции №1 просмотр всех файлов папки (ls)
+#Тест функции №1 просмотр всех файлов папки
 @pytest.fixture()
 def ls_fixture():
     fm.ls()
@@ -135,7 +135,7 @@ def test_pwd(pwd_fixture):
     assert pwd_fixture == True
 
 
-#Тест функции №14 просмотр текущего пути;
+#Тест функции №14 определение длины текущего пути;
 @pytest.fixture()
 def beginerLength_fixture():
     fm.beginerLength()
